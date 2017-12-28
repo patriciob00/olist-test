@@ -1,0 +1,16 @@
+form {
+  width: 100%;
+  padding: 5% 10%
+}
+
+.form-group {
+  padding-top: 10px;
+}
+
+.form-group label {
+  /* font-family: Soleil; */
+  line-height: 26px;
+  font-size: 16px;
+  color: #696D8C;
+  font-weight: normal;
+}

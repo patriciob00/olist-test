@@ -1,0 +1,22 @@
+.btn.btn-success {
+  line-height: 30px;
+  font-size: 18px;
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+.btn.btn-success.btn-custom {
+  background-color: #17D499;
+  border-color: #17D499
+}
+
+.btn.btn-success.btn-disable {
+  background-color: #0e7b59;
+  border-color: #0e7b59;
+  color: #ededed;
+  outline: none
+}
+
+.btn.btn-success.btn-disable:focus {
+  outline: none
+}

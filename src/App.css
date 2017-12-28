@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(245,245,251);
   position: absolute;
   width: 100vw;

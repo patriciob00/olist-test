@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import innerContainer from './components/inner-container/inner-container';
+import InnerContainer from './components/inner-container/inner-container';
 
 class Login extends Component {
   render() {
+    console.log('inner', InnerContainer)
     return (
       <div className="container"> 
-        <innerContainer />
+        <InnerContainer />
       </div>
     );
   }

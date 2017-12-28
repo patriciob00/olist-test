@@ -1,0 +1,18 @@
+
+.logo {
+  text-align: center;
+}
+
+.logo div:first-child {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #0C29D0;
+}
+
+.logo div:not(:first-child) {
+  padding-top: 10px;
+  font-family: Soleil;
+  line-height: 31px;
+  font-size: 22px;
+  color: #312F4F;
+}

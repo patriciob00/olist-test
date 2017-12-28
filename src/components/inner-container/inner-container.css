@@ -1,5 +1,18 @@
 .inner {
-  background-color: white;
-  width: calc( 100vw - 30vw);
-  height: calc( 100vh - 30vh );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc( 100vw - 66vw);
+  height: calc( 100vh - 20vh );
+  background: #FFFFFF;
+  border: 3px solid #F2F2F2;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .inner {
+    width: calc( 100vw - 10vw);
+    height: calc( 100vh - 5vh );
+  }    
 }
