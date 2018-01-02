@@ -1,3 +1,8 @@
+.pass-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-group input {
   border-radius: 0;
   background: #FFFFFF;
@@ -14,4 +19,45 @@
 .form-group.enable input:focus {
   border: 1px solid #F79682;
   outline: none;
+}
+
+.sign-container {
+  display: flex;
+  margin: 0px -5px;
+}
+
+.sign {
+  margin: 1px 5px;
+  border: 1px solid #EAEAF4;
+  width: 33.33%;
+  border-radius: 10px;
+  height: 8px;
+  background: #EAEAF4;
+}
+
+.labels-container {
+  margin: 5px 0px;
+}
+
+.label-custom {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.indicator {
+  border: 1px solid #eaeaf4;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #EAEAF4;
+  margin-right: 7px;
+}
+
+.label-custom span {
+  color: #696D8C;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  float: left
 }

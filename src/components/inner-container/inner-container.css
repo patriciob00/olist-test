@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: calc( 100vw - 66vw);
-  height: calc( 100vh - 20vh );
+  height: calc( 100vh - 10vh );
   background: #FFFFFF;
   border: 3px solid #F2F2F2;
   box-sizing: border-box;

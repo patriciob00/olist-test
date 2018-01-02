@@ -14,9 +14,31 @@ class PassInput extends Component {
   
   render() {
     return (
-      <CommonInput id={ this.props.id } label={ this.props.label } type={ this.props.type } class={this.state.status} />
-
-
+    <div className='pass-container'>
+      <CommonInput 
+        id={ this.props.id } label={ this.props.label } 
+        type={ this.props.type } class={this.state.status} 
+      />
+      <div className="sign-container">
+        <div className="sign"></div>
+        <div className="sign"></div>
+        <div className="sign"></div>
+      </div>
+      <div className='labels-container'>
+        <div className='label-custom'>
+          <div className='indicator'></div>
+          <span>Pelo menos 6 caracteres</span>
+        </div>
+        <div className='label-custom'>
+          <div className='indicator'></div>
+          <span>Pelo menos 1 letra maiúscula</span>
+        </div>
+        <div className='label-custom'>
+          <div className='indicator'></div>
+          <span>Pelo menos 1 número</span>
+        </div>
+      </div>
+    </div>
     );
   }
 }
