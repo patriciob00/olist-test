@@ -4,10 +4,27 @@
   justify-content: center;
   align-items: center;
   width: calc( 100vw - 66vw);
-  height: calc( 100vh - 10vh );
+  height: calc( 100vh - 7vh );
   background: #FFFFFF;
   border: 3px solid #F2F2F2;
   box-sizing: border-box;
+}
+
+.inner.logging {
+  animation: logging 3s ease-out;
+}
+
+@keyframes logging {
+  50% { 
+    width: calc( 100vw - 100vw);
+    height: calc( 100vh - 100vh );
+    border-radius: 100px
+  }
+  100% {
+    width: calc( 100vw - 66vw);
+    height: calc( 100vh - 7vh );
+    border-radius: 0px
+  }
 }
 
 @media screen and (max-width: 768px) {

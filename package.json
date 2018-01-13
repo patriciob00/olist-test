@@ -4,11 +4,17 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-bs-notifier": "^4.4.5",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-multi": "^0.1.12"
   },
   "devDependencies": {
     "react-scripts": "1.0.17",
+    "redux-thunk": "^2.2.0",
     "webpack": "^3.10.0"
   },
   "scripts": {

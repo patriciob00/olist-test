@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './common-input.css'
 
-class CommonInput extends Component {
-  constructor(props) {
-    super(props);
-    
-  }
-  
-  render() {
-    return (
-      <div className={`form-group ${this.props.class || ''}`}>
-        <label for={ this.props.id }>{ this.props.label }</label>
-        <input type={this.props.type || 'text' } class="form-control" id={ this.props.id } />
-      </div>
-    );
-  }
-}
+const CommonInput = (props) => (
+  <div className='form-group'>
+    <label htmlFor={ props.id || '' }>{ props.label }</label>
+    <input 
+      type={ props.type || 'text' } 
+      className={`form-control ${ props.classname }`} 
+      id={ props.id || '' } 
+      value={ props.value }
+      onChange={ props.onchange } />
+  </div>
+)
 
 export default CommonInput;

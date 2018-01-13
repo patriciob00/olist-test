@@ -1,0 +1,23 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.loginContainer h1 {
+  line-height: 90px;
+  color: #312F4F;
+  font-size: 50px;
+}
+
+.loginContainer p {
+  color: #696D8C;
+  margin-top: 15%;
+}
+
+.loginContainer button.btn.btn-success {
+  max-width: 300px!important
+}

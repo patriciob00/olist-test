@@ -3,61 +3,17 @@
   flex-direction: column;
 }
 
-.form-group input {
-  border-radius: 0;
-  background: #FFFFFF;
-  border: 1px solid #B6B9D0;
-  box-sizing: border-box;
-  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.05);
+.form-group input.success:focus {
+  border: 1px solid rgb(23,212,153);
+  box-shadow: 0px 0px 2px 1px rgba(23,212,153, 0.5);
 }
 
-.form-group.able input:focus {
-  border: 1px solid #17D499;
-  outline: none;
+.form-group input.warning:focus {
+  border: 1px solid rgb(247,188,28);
+  box-shadow: 0px 0px 2px 1px rgba(247,188,28, 0.5);
 }
 
-.form-group.enable input:focus {
-  border: 1px solid #F79682;
-  outline: none;
-}
-
-.sign-container {
-  display: flex;
-  margin: 0px -5px;
-}
-
-.sign {
-  margin: 1px 5px;
-  border: 1px solid #EAEAF4;
-  width: 33.33%;
-  border-radius: 10px;
-  height: 8px;
-  background: #EAEAF4;
-}
-
-.labels-container {
-  margin: 5px 0px;
-}
-
-.label-custom {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
-
-.indicator {
-  border: 1px solid #eaeaf4;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  background: #EAEAF4;
-  margin-right: 7px;
-}
-
-.label-custom span {
-  color: #696D8C;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
-  float: left
+.form-group input.danger:focus {
+  border: 1px solid rgb(247,150,130);
+  box-shadow: 0px 0px 2px 1px rgba(247,150,130, 0.5);
 }
